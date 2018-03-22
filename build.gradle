@@ -1,0 +1,5 @@
+group 'spring.reactive.kafka.example'
+version '1.0-SNAPSHOT'
+repositories {
+    mavenCentral()
+}

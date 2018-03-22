@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "spring.reactive.kafka.example.producer.config.EventProducerProperties",
+      "name": "event-producer",
+      "type": "spring.reactive.kafka.example.producer.config.EventProducerProperties"
+    },
+    {
+      "sourceType": "spring.reactive.kafka.example.producer.config.EventProducerProperties",
+      "name": "event-producer.database",
+      "sourceMethod": "getDatabase()",
+      "type": "spring.reactive.kafka.example.producer.config.EventProducerProperties$Database"
+    }
+  ],
+  "properties": []
+}

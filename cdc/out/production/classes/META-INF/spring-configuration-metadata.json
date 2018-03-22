@@ -1,0 +1,29 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "spring.reactive.kafka.example.cdc.config.KafkaDemoProperties",
+      "name": "kafka-demo",
+      "type": "spring.reactive.kafka.example.cdc.config.KafkaDemoProperties"
+    },
+    {
+      "sourceType": "spring.reactive.kafka.example.cdc.config.KafkaDemoProperties",
+      "name": "kafka-demo.cdc",
+      "sourceMethod": "getCdc()",
+      "type": "spring.reactive.kafka.example.cdc.config.KafkaDemoProperties$Cdc"
+    },
+    {
+      "sourceType": "spring.reactive.kafka.example.cdc.config.KafkaDemoProperties",
+      "name": "kafka-demo.database",
+      "sourceMethod": "getDatabase()",
+      "type": "spring.reactive.kafka.example.cdc.config.KafkaDemoProperties$Database"
+    },
+    {
+      "sourceType": "spring.reactive.kafka.example.cdc.config.KafkaDemoProperties",
+      "name": "kafka-demo.zookeeper",
+      "sourceMethod": "getZookeeper()",
+      "type": "spring.reactive.kafka.example.cdc.config.KafkaDemoProperties$Zookeeper"
+    }
+  ],
+  "properties": []
+}

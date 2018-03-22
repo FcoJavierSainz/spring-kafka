@@ -1,0 +1,5 @@
+rootProject.name = 'demo'
+include 'event-producer'
+include 'cdc'
+include 'event-consumer'
+
